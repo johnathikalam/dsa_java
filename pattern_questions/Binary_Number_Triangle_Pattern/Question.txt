@@ -1,0 +1,11 @@
+Binary Number Triangle Pattern
+Problem Statement: Given an integer N, print the following pattern : 
+
+Input Format: N = 6
+Result:   
+1
+01
+101
+0101
+10101
+010101

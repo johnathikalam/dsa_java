@@ -1,0 +1,12 @@
+Rectangular Star Pattern
+
+Problem Statement: Given an integer N, print the following pattern.
+
+Input: N = 6
+Output:
+* * * * * *
+* * * * * *
+* * * * * *
+* * * * * *
+* * * * * *
+* * * * * *
