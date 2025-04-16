@@ -1,0 +1,11 @@
+Increasing Letter Triangle Pattern
+Problem Statement: Given an integer N, print the following pattern : 
+
+Input Format: N = 6
+Result:   
+A
+A B
+A B C
+A B C D
+A B C D E
+A B C D E F
