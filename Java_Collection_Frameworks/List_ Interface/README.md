@@ -1,0 +1,1 @@
+*void add(int index, Object obj)* : Inserts obj into the invoking list at the index passed in the index. Any pre-existing elements at or beyond the point of insertion are shifted up. Thus, no elements are overwritten.
