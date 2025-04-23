@@ -16,19 +16,19 @@ public class Example {
         m.put("Mahnaz", 31);
         m.put("Ayan", 12);
         m.put("Daisy", 14);
-        System.out.println("Map : " + m);
+        System.out.println("Map : " + m);   //{Ayan=12, Daisy=14, Daniel=17, Jackson=3, John=22, Joseph=29, Mahnaz=31, Zara=8} 
 
         m.remove("John");
-        System.out.println("Map : " + m);
+        System.out.println("Map : " + m); //{Ayan=12, Daisy=14, Daniel=17, Jackson=3, Joseph=29, Mahnaz=31, Zara=8} 
 
 
-        System.out.println(m.get("John"));
+        System.out.println(m.get("John"));  //null
 
         Set<Map.Entry<String, Integer>> set = m.entrySet();
         Iterator<Map.Entry<String, Integer>> i = set.iterator();
         while(i.hasNext()) {
             Map.Entry<String, Integer> me = i.next();
-            System.out.println(me.getKey() + " " + me.getValue());
+            System.out.print(me.getKey() + " " + me.getValue() + "  ");  // Ayan 12  Daisy 14  Daniel 17  Jackson 3  Joseph 29  Mahnaz 31  Zara 8
         }
     }
 }
