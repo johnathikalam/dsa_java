@@ -13,7 +13,7 @@ public class Example {
         Iterator it = set.iterator();
         while (it.hasNext()) {        
             Object element = it.next();
-            System.out.println(element.toString());
+            System.out.print(element.toString() + " "); //b c
         }
 
         set.clear();
