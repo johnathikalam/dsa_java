@@ -10,7 +10,7 @@ public class Example {
          for(int i = 0; i < 5; i++) {
             set.add(count[i]);
          }
-         System.out.println(set);
+         System.out.println(set);   //[34, 22, 10, 60, 30]
       }
       catch(Exception e) {}
    }
