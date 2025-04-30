@@ -1,7 +1,7 @@
 import java.util.Stack;
 public class Example{
     public static void main(String [] args){
-        Stack st = new Stack();
+        Stack<Integer> st = new Stack<Integer>();
 
         st.push(10);
         st.push(20);
