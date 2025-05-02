@@ -22,6 +22,9 @@ public class Example {
         pq.removeIf(t -> t % 2 == 0);
         System.out.println(pq); //[9, 11]
 
-        Object [] arr = pq.toArray();
+        Object[] arr = pq.toArray();
+        for (Object t : arr) {
+            System.out.print(t+ " ");
+        }
     }
 }
