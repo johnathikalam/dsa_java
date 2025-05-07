@@ -5,7 +5,7 @@ public class Example {
         Scanner sc  = new Scanner(System.in);
         System.out.print("Enter the digit : ");
         int digit = sc.nextInt();
-        String rev = "";
+        int rev = 0;
         boolean flag = true;
         while (digit > 0){
             int num = digit % 10;
@@ -16,7 +16,7 @@ public class Example {
                 }
             }
             else{
-                rev = rev + num;
+                rev = rev * 10 + num;
             }
             digit /= 10;
         }
