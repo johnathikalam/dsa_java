@@ -12,7 +12,6 @@ Input: N=6 arr[] = {10,20,30,40}
 Output: {40,30,20,10}
 Explanation: Since the order of elements gets reversed the first element will occupy the fifth position, the second element occupies the fourth position and so on.
 
-
 Approach: The recursive method has an approach almost similar to the iterative one. The approach has been broken down into some steps for simplicity.
 
 Create a function that takes an array, start index, and end index of the array as parameters.
