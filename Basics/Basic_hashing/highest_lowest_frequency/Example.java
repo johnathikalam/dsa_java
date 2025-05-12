@@ -13,8 +13,8 @@ public class Example {
         for (int i = 0; i < n; i += 1){
             list[i] = sc.nextInt();
         }
-       
 
+        sc.close();
         Map<Integer, Integer> map = new HashMap<>();
         
         for (int i = 0; i < list.length; i += 1){
@@ -25,19 +25,21 @@ public class Example {
                 map.put(list[i], 1);
             }
         }
-        int maxKey = 0, maxElement = 0, minKey = n, minElement = 0;
+        int maxCount = 0, maxKey = 0, minCount = n, minKey = 0;
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
             int count = entry.getValue();
             int element = entry.getKey();
 
-            if (count > maxKey) {
-                maxElement = element;
-                maxKey = count;
+            if (count > maxCount) {
+                maxKey = element;
+                maxCount = count;
             }
-            if (count < minKey) {
-                minElement = element;
-                minKey = count;
+            if (count < minCount) {
+                minKey = element;
+                minCount = count;
             }
         }
+        System.out.println("Highest frequency : " + maxKey + " " + maxCount);
+        System.out.println("Lowest frequency : " + minKey + " " + minCount);
     }
 }
