@@ -10,11 +10,8 @@ public class Example {
             cube += rem * rem * rem; 
             num /= 10;
         }
-        if (cube == N){
-            return true;
-        }else{
-            return false;
-        }
+        if (cube == N)return true;
+        else return false;
     }
 
     public static void main(String[] args){
@@ -23,6 +20,7 @@ public class Example {
         System.out.print("Enter the number : ");
         int N = sc.nextInt();
 
+        sc.close();
         System.out.println(armstrong(N));
     }    
 }
