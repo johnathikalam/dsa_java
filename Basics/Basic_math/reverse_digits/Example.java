@@ -5,9 +5,10 @@ public class Example {
         Scanner sc  = new Scanner(System.in);
         System.out.print("Enter the digit : ");
         int digit = sc.nextInt();
+        sc.close();
         int rev = 0;
         boolean flag = true;
-        while (digit > 0){
+        while (digit != 0){
             int num = digit % 10;
             if (flag){
                 if (num != 0){
