@@ -1,5 +1,5 @@
 public class Example{
-    public static int long_sum(int [] arr, int k){
+    public static int long_sum_brute(int [] arr, int k){
         int long_length = 0;
         for (int i = 0; i < arr.length; i++){
             int s = 0;
@@ -13,7 +13,7 @@ public class Example{
 
     public static void main(String [] args){
         int [] arr = {2,3,5,1,9};
-        int res = long_sum(arr,10);
+        int res = long_sum_brute(arr,10);
         System.out.println(res);
     }
 
