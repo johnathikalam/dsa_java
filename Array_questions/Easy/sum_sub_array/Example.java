@@ -56,9 +56,10 @@ public class Example{
     }
 
     public static void main(String [] args){
-        int [] arr = {2,0,0,0,0,3};
+        int [] arr = {-1, 1, 1};
+        // int [] arr = {2,0,0,0,0,3};
         // int [] arr = {2,3,5,1,9};
-        int res = longSumTwoPointer(arr, 3);
+        int res = longSumTwoPointer(arr, 1);
         System.out.println(res);
     }
 
