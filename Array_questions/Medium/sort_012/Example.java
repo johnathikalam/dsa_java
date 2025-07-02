@@ -25,7 +25,7 @@ public class Example {
         return arr;
     }
     
-    public static int [] sortDigitsDuchFlag(int [] arr){
+    public static int [] sortDigitsDutchFlag(int [] arr){
         int low = 0, mid = 0, high = arr.length-1;
         while (high >= mid){
             if (arr[mid] == 0){
@@ -53,7 +53,7 @@ public class Example {
     public static void main(String [] args){
         int [] arr = {2,0,2,1,1,0,0,1,1};
         arr = sortDigitsCounter(arr);
-        arr = sortDigitsDuchFlag(arr);
+        arr = sortDigitsDutchFlag(arr);
         for (int i = 0; i < arr.length; i++){
             System.out.print(arr[i] + " ");
         }        
